@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: "AWS Architecture Portfolio"
-description: "AWS architecture portfolio focused on backend, cloud engineering, Terraform, and architecture trade-offs."
+title: "AWS Architecture Reference Projects"
+description: "AWS architecture reference projects focused on backend systems, cloud engineering, Terraform, and architecture trade-offs."
 show_downloads: false
 
 plugins:

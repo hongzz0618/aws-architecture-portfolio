@@ -4,11 +4,11 @@
 
 ## Repository Context
 
-This repository is one of the linked AWS architecture projects in the main portfolio hub.
+This repository is one of the linked AWS architecture projects in the main reference hub.
 
-- Portfolio hub: `[Link to main AWS Architecture Portfolio]`
+- Reference hub: `[Link to main AWS Architecture Reference Hub]`
 - Related architecture category: `[Serverless / Containers / Networking / Data / Security / CI/CD / Other]`
-- Project maturity: `[Learning project / portfolio prototype / proof of concept]`
+- Project maturity: `[Learning lab / reference implementation / proof of concept]`
 - Implementation status: `[Diagram only / Terraform included / partially deployable / tested in AWS account]`
 
 This project is intended to demonstrate cloud engineering thinking, AWS service selection, infrastructure design, and deployment documentation. It should not be described as production-ready unless it has been validated, secured, monitored, and operated under real production conditions.
@@ -34,7 +34,7 @@ Describe a realistic scenario where this architecture could be used.
 
 Placeholder:
 
-`[A company/team could use this architecture to ...]`
+`[A team could use this architecture to ...]`
 
 Include:
 
@@ -168,7 +168,7 @@ Post-deployment validation:
 
 If the project is not currently deployable:
 
-`This project is documented as an architecture portfolio example and is not currently packaged for one-command deployment.`
+`This project is documented as an architecture reference example and is not currently packaged for one-command deployment.`
 
 ## Security Considerations
 
@@ -220,7 +220,7 @@ Cost control ideas:
 - Prefer managed or serverless services where appropriate for low or variable usage.
 - Configure retention periods for logs and stored data.
 - Remove unused resources after testing.
-- Add budgets or alerts for portfolio experiments.
+- Add budgets or alerts for test or sandbox deployments.
 
 ## Architecture Trade-offs
 
@@ -260,11 +260,11 @@ Project-specific improvements:
 - `[Improvement]`
 - `[Improvement]`
 
-## Interview Talking Points
+## Design Discussion Notes
 
-Use this section to prepare for AWS backend or cloud engineering interviews.
+Use this section to summarize architecture decisions, trade-offs, and operational considerations.
 
-Suggested talking points:
+Suggested discussion notes:
 
 - Why these AWS services were selected.
 - How the request or data flow works end to end.
@@ -281,9 +281,9 @@ Project-specific notes:
 - `[Talking point]`
 - `[Talking point]`
 
-## CV Bullet Draft
+## Project Summary Statement
 
-Use this as a starting point for a CV or LinkedIn bullet. Keep it truthful to the implemented scope.
+Use this as a concise technical summary of the project scope and implementation focus. Keep it truthful to the implemented scope.
 
 Template:
 
@@ -295,9 +295,9 @@ Alternative examples:
 - `Built a Terraform-based AWS architecture prototype with [services], demonstrating infrastructure as code, deployment planning, and cloud engineering decision-making.`
 - `Created cloud architecture documentation for a [use case], including service selection, data flow, observability, security considerations, and production improvement roadmap.`
 
-Final project-specific bullet:
+Final project-specific summary:
 
-`[Write final CV bullet here.]`
+`[Write final project summary here.]`
 
 ## Cleanup / Destroy Instructions
 

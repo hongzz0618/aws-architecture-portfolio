@@ -1,10 +1,10 @@
-# AWS Architecture Portfolio
+# AWS Architecture Reference Projects
 
-Welcome to my **AWS Architecture Portfolio**. This GitHub Pages site is the review hub for backend and cloud engineering work focused on Node.js, TypeScript, AWS Serverless, Terraform, and cloud architecture.
+This GitHub Pages site is a reference hub for backend and cloud engineering projects focused on Node.js, TypeScript, AWS Serverless, Terraform, and cloud architecture.
 
-Each architecture project lives in its own repository with its own documentation and implementation details. The goal of this hub is to make the strongest review path clear while still keeping the broader AWS architecture references available.
+Each architecture project lives in its own repository with its own documentation and implementation details. The goal of this hub is to make the strongest technical path clear while still keeping the broader AWS architecture references available.
 
-> **Current state:** These projects are learning-focused portfolio examples. They are being improved over time and are not presented as production-ready systems.
+> **Current state:** These projects are learning-focused reference examples. They are being improved over time and are not presented as production-ready systems.
 
 ---
 
@@ -16,7 +16,7 @@ If you only review three projects, start with:
 2. [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter)
 3. [aws-containerized-web-app](https://github.com/hongzz0618/aws-containerized-web-app)
 
-These featured projects are the clearest path for backend/cloud engineering review. The additional repositories remain part of the portfolio, but they are supporting AWS architecture references rather than equally deep projects.
+These featured projects are the clearest path through the backend and cloud architecture topics. The additional repositories are supporting AWS architecture references rather than equally deep projects.
 
 ---
 
@@ -25,7 +25,7 @@ These featured projects are the clearest path for backend/cloud engineering revi
 | Project | What it demonstrates | Main AWS services | Backend/cloud relevance | Status |
 |---|---|---|---|---|
 | [aws-serverless-api-backend](https://github.com/hongzz0618/aws-serverless-api-backend) | Serverless API architecture, request handling, persistence, and backend service boundaries. | Amazon API Gateway, AWS Lambda, Amazon DynamoDB, IAM, Amazon CloudWatch. | Strong fit for API backend design, service integration, validation, IAM, observability, scaling, and cost discussion. | Improving. Main project being deepened. |
-| [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter) | Starter architecture for integrating managed GenAI capabilities into a cloud application. | Amazon Bedrock, AWS Lambda, API/application integration patterns, IAM, Amazon CloudWatch. | Shows how AI-assisted workflows still depend on backend fundamentals, permissions, operational visibility, and cost awareness. | Basic. Focused GenAI reference. |
+| [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter) | Starter architecture for integrating managed model capabilities into a cloud application. | Amazon Bedrock, AWS Lambda, API/application integration patterns, IAM, Amazon CloudWatch. | Shows how model-assisted workflows still depend on backend fundamentals, permissions, operational visibility, and cost awareness. | Basic. Focused managed-model reference. |
 | [aws-containerized-web-app](https://github.com/hongzz0618/aws-containerized-web-app) | Containerized web application architecture, service deployment, networking, and scaling concepts. | Amazon ECS, AWS Fargate, Elastic Load Balancing, Amazon EFS, Amazon VPC, IAM, Amazon CloudWatch. | Supports discussion of container operations, traffic routing, health checks, scaling, and deployment flow. | Basic. Baseline container architecture reference. |
 
 ---
@@ -48,15 +48,15 @@ These repositories show breadth across common AWS architecture patterns. They ar
 
 - **Basic** = initial implementation or architecture baseline exists in the linked repository.
 - **Improving** = actively being enhanced with better documentation, security, observability, cost notes, and trade-offs.
-- **Portfolio-ready** = target state, not currently claimed.
+- **Reference-ready** = target state, not currently claimed.
 
 ---
 
-## Portfolio Focus
+## Reference Focus
 
-- AWS architecture patterns for backend and cloud engineering roles
+- AWS architecture patterns for backend and cloud engineering systems
 - Serverless backend design
-- Managed GenAI application integration
+- Managed model application integration
 - Containerized application deployment
 - Event-driven, data, streaming, and CI/CD architecture references
 - Security, observability, scalability, and cost trade-offs
@@ -67,7 +67,7 @@ These repositories show breadth across common AWS architecture patterns. They ar
 
 | Phase | Focus |
 |---|---|
-| Phase 1 | Improve the portfolio hub |
+| Phase 1 | Improve the reference hub |
 | Phase 2 | Standardize sub-repository documentation |
 | Phase 3 | Deepen Serverless API Backend |
 | Phase 4 | Deepen GenAI Starter and Containerized Web App |
