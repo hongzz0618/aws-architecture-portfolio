@@ -14,7 +14,7 @@ It demonstrates:
 - Serverless API design, containerized application deployment, and managed model integration
 - Terraform and Infrastructure as Code concepts through linked project repositories
 - Awareness of security, observability, scalability, and cost trade-offs
-- Clear architecture communication without presenting the examples as production-ready systems
+- Clear architecture communication without presenting the examples as deployable production systems
 
 These projects are reference and learning-oriented architecture examples. The maturity labels below are intentionally modest.
 
@@ -26,7 +26,7 @@ If you only review three projects, start with:
 2. [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter) - shows cloud application design around managed model capabilities.
 3. [aws-containerized-web-app](https://github.com/hongzz0618/aws-containerized-web-app) - shows container deployment, networking, and service operation concepts.
 
-These are the featured projects and the clearest review path for backend and cloud architecture topics. The remaining repositories are supporting AWS architecture references rather than equally deep projects.
+These are the featured projects and the clearest review path for backend and cloud architecture topics.
 
 ## Featured Projects
 
@@ -36,18 +36,6 @@ These are the featured projects and the clearest review path for backend and clo
 | [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter) | A starter architecture for integrating managed model capabilities into a cloud application. | Amazon Bedrock, AWS Lambda, API/application integration patterns, IAM, Amazon CloudWatch. | Relevant for systems that add model-assisted workflows while still needing backend fundamentals: service boundaries, permissions, operational visibility, and cost awareness. | Basic. Useful as a focused managed-model architecture reference, with room to deepen implementation detail and operational notes. |
 | [aws-containerized-web-app](https://github.com/hongzz0618/aws-containerized-web-app) | Containerized web application architecture, service deployment, networking, and scaling concepts. | Amazon ECS, AWS Fargate, Elastic Load Balancing, Amazon EFS, Amazon VPC, IAM, Amazon CloudWatch. | Supports discussion of backend service hosting outside pure serverless, including container operations, traffic routing, health checks, scaling, and deployment flow. | Basic. A baseline container architecture reference that should be reviewed as a foundation rather than a production platform claim. |
 
-## Additional AWS Architecture References
-
-These repositories show breadth across common AWS architecture patterns. They are included to demonstrate wider exposure to AWS services and design choices, but they are not all equally deep.
-
-| Repository | Architecture reference | Main AWS services / pattern | Current maturity/status |
-|---|---|---|---|
-| [aws-static-website-hosting](https://github.com/hongzz0618/aws-static-website-hosting) | Static website hosting and CDN delivery. | Amazon S3, Amazon CloudFront, DNS/TLS concepts. | Basic supporting reference. |
-| [aws-data-lake](https://github.com/hongzz0618/aws-data-lake) | Data lake and analytics foundation. | Amazon S3 data lake pattern, cataloging, query and analytics services. | Basic supporting reference. |
-| [aws-event-driven-processing](https://github.com/hongzz0618/aws-event-driven-processing) | Event-driven processing and asynchronous workflow design. | Amazon EventBridge, AWS Lambda, managed messaging/event patterns. | Basic supporting reference. |
-| [aws-realtime-streaming](https://github.com/hongzz0618/aws-realtime-streaming) | Real-time ingestion and streaming architecture. | Amazon Kinesis-style streaming ingestion and processing pattern. | Basic supporting reference. |
-| [aws-ci-cd](https://github.com/hongzz0618/aws-ci-cd) | Delivery automation and CI/CD workflow design. | AWS CodePipeline-style build, test, and deployment workflow. | Basic supporting reference. |
-
 ## Maturity Labels
 
 | Maturity | Meaning |
@@ -56,7 +44,7 @@ These repositories show breadth across common AWS architecture patterns. They ar
 | Improving | The project is being enhanced with clearer documentation, security notes, observability notes, cost notes, and architecture trade-offs. |
 | Reference-ready | Target state where a project has enough structure to explain architecture choices, limitations, and trade-offs clearly. |
 
-None of the projects are described as production-ready. The focus is clear architecture communication, practical AWS learning, and steady improvement.
+None of the projects are presented as deployable production systems. The focus is clear architecture communication, practical AWS learning, and steady improvement.
 
 ## Technical Discussion Topics
 
