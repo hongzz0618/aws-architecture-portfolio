@@ -2,7 +2,7 @@
 
 This GitHub Pages site is a reference hub for backend-focused AWS architecture projects using Node.js, TypeScript, Terraform, serverless services, containers, and managed cloud integrations.
 
-Each architecture project lives in its own repository with its own documentation and implementation details. The goal of this hub is to make the strongest technical path through the three featured projects clear.
+Each architecture project lives in its own repository with its own documentation and implementation details. The goal of this hub is to make the recommended technical path through the three featured projects clear.
 
 > **Current state:** These projects are learning-focused reference examples. They are being improved over time and are not presented as deployable production systems.
 
@@ -16,7 +16,7 @@ If you only review three projects, start with:
 2. [aws-containerized-web-app](https://github.com/hongzz0618/aws-containerized-web-app)
 3. [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter)
 
-These featured projects are the clearest path through the backend and cloud architecture topics.
+These featured projects are the suggested path through the backend and cloud architecture topics.
 
 ---
 

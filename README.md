@@ -22,7 +22,7 @@ These projects are reference and learning-oriented architecture examples. The ma
 
 If you only review three projects, start with:
 
-1. [aws-serverless-api-backend](https://github.com/hongzz0618/aws-serverless-api-backend) - strongest fit for backend/serverless API discussion.
+1. [aws-serverless-api-backend](https://github.com/hongzz0618/aws-serverless-api-backend) - most directly aligned for backend/serverless API discussion.
 2. [aws-containerized-web-app](https://github.com/hongzz0618/aws-containerized-web-app) - shows container deployment, networking, and service operation concepts.
 3. [aws-genai-starter](https://github.com/hongzz0618/aws-genai-starter) - shows cloud application design around managed model capabilities.
 
@@ -50,7 +50,7 @@ None of the projects are presented as deployable production systems. The focus i
 
 This collection is designed to make the most relevant backend and cloud architecture examples easy to find first.
 
-The strongest discussion areas are:
+The main discussion areas are:
 
 - Explaining service selection and trade-offs for serverless and containerized backends
 - Discussing IAM, observability, scalability, and cost constraints
